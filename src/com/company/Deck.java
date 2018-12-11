@@ -5,8 +5,8 @@ import java.util.List;
 
 public class Deck
 {
-  ArrayList<Card>Dealt;
-  ArrayList<Card>unDealt;
+  ArrayList<Card>Dealt = new ArrayList<> ();
+  ArrayList<Card>unDealt = new ArrayList<> ();
   
   public Deck(String[] Rank, String[] Suit, int[] pointValue)
   {
